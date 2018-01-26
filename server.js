@@ -4,7 +4,7 @@ var methodOverride = require('method-override')
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-var db = process.env.DATABASE_URL || 'localhost';
+// var db = process.env.DATABASE_URL || 'localhost';
 
 app.use(express.static(process.cwd() + '/public'));
 app.use(bodyParser.urlencoded({
