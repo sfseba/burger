@@ -1,0 +1,108 @@
+/* html {
+ 	background-color: #e46d26;
+ } */
+
+ body {
+ 	/* width: 100%; */
+	margin: 0 auto;
+
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	/* background-color: #e2e2e2; */
+  background-color: #e46d26;
+ }
+
+ #cute_burger {
+ 	display: block;
+    margin: auto;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-family: "Verlag-Book";
+ 	font-size: 65px;
+ 	margin: 50px;
+  color: white;
+  font-weight: 900;
+ }
+
+ .burgerAvailable {
+ 	font-family: "slim joe";
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #e2e2e2;
+  color: #e46d26;
+ 	border: none;
+ }
+
+ .burgerAvailable:hover {
+ 	background-color: #fff;
+  font-weight: 900;
+ }
+
+ .burgerEaten {
+ 	font-family: "slim joe";
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+  color: #563e2e;
+ 	border-radius: 25px;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #e2e2e2;
+ }
+
+ h2 {
+  text-align: center;
+ 	font-family: "slim joe";
+ 	font-size: 40px;
+ 	margin: 50px;
+  color: white;
+ }
+
+ .formContainer {
+ 	background-color: orange;
+ }
+
+ .addBurgerButton {
+ 	font-family: "slim joe";
+ 	font-weight: normal;
+ 	font-size: 20px;
+ 	text-align: center;
+
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 10px;
+ 	background-color: #FFf;
+ 	border: none;
+ }
+
+.addBurgerButton:active {
+	background-color: #fff !important;
+}
+
+.burgerFooter {
+	background-color: #e2e2e2;
+	padding: 20px 0;
+}
+h5 {
+  text-align: center;
+  font-family: "slim joe";
+  font-weight: 900;
+  color: white;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #563e2e;
+}
